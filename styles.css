@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0px;
+    background-color: #bdf4d7;
+    font-family: sans-serif;
+  }
+  nav {
+    background-color: #1f6846;
+    display: flex;
+    justify-content: flex-end;
+   position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;  
+  }
+  a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fffbf4;
+  }
+  a:hover {
+    background-color: #0b824e;
+    color: #1e9d3d;
+  }
+  .pro{
+    width: 300px;
+  }
+  .product-container {
+    width: 800px;
+    margin: 0px auto;
+    background-color: #7bc287;
+    padding: 20px;
+  }
+  .product-detail {
+    padding: 10px;
+    width: 400px;
+  }
+  .row {
+    display: flex;
+  }
+  .promo-image {
+    width: 350px;
+  }
+  .product-image {
+    width: 400px;
+    padding: 20px;
+  }
+  .promo-code {
+    background-color: #0bd039;
+    border: 1px solid #191f25;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+  }
+  .product {
+    display: flex;
+  }
+  .Cerave {
+    width: 148px;
+  }
+  .related-product {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #191f25;
+    background-color: #4a993c;
+    width: 190px;
+    text-align: justify;
+    object-fit: cover;
+  }
+  .related-product-name {
+    background-color: #26c779;
+    padding: 10px;
+    width: 148px;
+    height: 120px;
+  }
+  .footer {
+    background-color: #158a2c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+  }
